@@ -1,6 +1,6 @@
 # @jmlq/logger-plugin-postgresql 🐘
 
-![](./assets/jmlq-logger-plugin-postgresql-banner.png)
+![](./assets/jmlq-logger-plugin-postgresql-banner-en.png)
 
 Persistence plugin for **PostgreSQL** compatible with `@jmlq/logger`.
 
