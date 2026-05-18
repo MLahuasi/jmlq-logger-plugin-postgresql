@@ -178,10 +178,10 @@ export class PostgresLogRowHelper {
 
 ## 🔗 Referencias
 
-- [`@jmlq/logger`](https://github.com/MLahuasi/jmlq-logger#readme)
+- [`@jmlq/logger`](https://github.com/MLahuasi/jmlq-logger/blob/main/README.es.md)
 - Plugins relacionados del ecosistema:
-  - [`@jmlq/logger-plugin-fs`](https://github.com/MLahuasi/jmlq-logger-plugin-fs#readme)
-  - [`@jmlq/logger-plugin-mongo`](https://github.com/MLahuasi/jmlq-logger-plugin-mongo#readme)
+  - [`@jmlq/logger-plugin-fs`](https://github.com/MLahuasi/jmlq-logger-plugin-fs/blob/main/README.es.md)
+  - [`@jmlq/logger-plugin-mongo`](https://github.com/MLahuasi/jmlq-logger-plugin-mongo/blob/main/README.es.md)
 
 ## ⬅️ 🌐 Ecosistema
 
