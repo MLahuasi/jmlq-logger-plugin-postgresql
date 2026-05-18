@@ -1,5 +1,7 @@
 # @jmlq/logger-plugin-postgresql 🐘
 
+![](./assets/jmlq-logger-plugin-postgresql-banner.png)
+
 Plugin de persistencia para **PostgreSQL** compatible con `@jmlq/logger`.
 
 Este paquete implementa un datasource que cumple el contrato `ILogDatasource` del core, permitiendo:
@@ -154,12 +156,16 @@ export class PostgresLogRowHelper {
 
 ## ✅ Checklist
 
-- [ ] Instalar `@jmlq/logger` + `@jmlq/logger-plugin-postgresql` + `pg`
-- [ ] Implementar `ISqlQueryClient` (adapter de `pg.Pool`)
-- [ ] Crear datasource con `createPostgresDatasource(options)`
-- [ ] Integrar con `createLogger({ datasources: [...] })`
-- [ ] Configurar schema/tabla/retención/índices (opcional)
-- [ ] Integrar en Express (`req.logger`) (opcional)
+- Instalar `@jmlq/logger` + `@jmlq/logger-plugin-postgresql` + `pg`
+- Implementar `ISqlQueryClient` (adapter de `pg.Pool`)
+- Crear datasource con `createPostgresDatasource(options)`
+- Integrar con `createLogger({ datasources: [...] })`
+- Configurar schema/tabla/retención/índices (opcional)
+- Integrar en Express (`req.logger`) (opcional)
+
+## 🧩 Implementation Example
+
+- [View real integration and documentation](https://github.com/MLahuasi/jmlq-ecosystem/blob/main/doc/es/%40jmlq/logger/postgresql.md)
 
 ---
 
